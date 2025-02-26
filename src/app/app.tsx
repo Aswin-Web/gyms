@@ -4,7 +4,7 @@ import DaysExcercise from "../pages/DaysExcercise";
 
 function App() {
   return (
-    <div className="bg-backgroundColor text-textColor h-[100vh] w-[100vw] m-auto">
+    <div className="bg-backgroundColor text-textColor min-h-[100vh] w-[100vw] m-auto">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/days/:dayname" element={<DaysExcercise />} />

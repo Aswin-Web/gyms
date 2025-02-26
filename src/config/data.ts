@@ -11,10 +11,11 @@ export const days = [
 
 export const excercise = [
   {
-    dayName: "",
+    dayName: "Monday",
     excercises: [
       {
-        video_url: "https://youtu.be/2jFFCy8JBU8?si=dXYfcXriSRJyT5ru",
+        video_url:
+          "https://www.youtube.com/embed/2jFFCy8JBU8?si=6QJ4NTORMffYeL1c",
         set: 2,
         reps: "10-15/  2 failure Min 25",
         name: " Incline Smith Machine /Incline BB Pench press ",
@@ -69,7 +70,6 @@ export const excercise = [
         name: " Incline Smith Machine /Incline BB Pench press ",
         type: "chest",
       },
-
     ],
   },
 ];
