@@ -12,7 +12,10 @@ const DaysExcercise = () => {
       {/* Heading */}
       <div>
         <p className="text-center text-2xl p-4  font-bold">
-          Monday Excercise's
+          {dayname} Excercise
+        </p>
+        <p className="text-center text-sm font-normal">
+          Organ : {filterPerDay.dayOrgan}
         </p>
       </div>
       {/* Card */}

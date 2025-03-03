@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { days, logo } from "../config/data";
+import { excercise, logo } from "../config/data";
 import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
@@ -20,7 +20,7 @@ const HomePage = () => {
   };
   return (
     <div className="flex items-center justify-center w-[100vw] h-[100vh]">
-      <div className="h-full w-full lg:w-1/3 lg:h-4/6 bg-darkblack m-auto rounded-lg">
+      <div className="h-full w-full lg:w-1/3 lg:h-5/6 bg-darkblack m-auto rounded-lg">
         {loading ? (
           // Loading Image
           <>
@@ -41,13 +41,14 @@ const HomePage = () => {
             {/* List items */}
             <div className=" font-bold tracking-widest text-3xl md:text-2xl text-center">
               <ul>
-                {days.map((item, ind) => (
+                {excercise.map((item, ind) => (
                   <ol
-                    className={`py-4 md:py-2 px-6 ${selectedDay === item.name ? "border-2 border-textColor rounded-lg" : ""}`}
+                    className={`py-4 md:py-2 px-6 ${selectedDay === item.dayName ? "border-2 border-textColor rounded-lg" : ""}`}
                     key={ind}
-                    onClick={() => setSelectedDay(item.name)}
+                    onClick={() => setSelectedDay(item.dayName)}
                   >
-                    <p className="">{item.name}</p>
+                    <p className="">{item.dayName}</p>
+                    <p className="text-sm font-normal">{item.dayOrgan}</p>
                   </ol>
                 ))}
               </ul>
