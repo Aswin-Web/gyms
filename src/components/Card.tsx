@@ -1,6 +1,6 @@
 import { TiArrowRepeat } from "react-icons/ti";
 import { IoMdStopwatch } from "react-icons/io";
-import { IoBodySharp } from "react-icons/io5";
+// import { IoBodySharp } from "react-icons/io5";
 
 const Card = ({
   data,
@@ -36,7 +36,7 @@ const Card = ({
         ></iframe>
       </div>
       {/* ICONS  */}
-      <div className="h-1/3 font-light text-xs w-5/6 m-auto flex flex-col  justify-center">
+      <div className="h-1/3 font-light text-xs w-5/6 m-auto flex  justify-between">
         <div className="flex gap-4 items-center mb-2 lg:mt-1">
           {/*  */}
           <div>
@@ -53,13 +53,12 @@ const Card = ({
           <p className="text-base">{data.set}</p>
         </div>
 
-        <div className="flex gap-4 items-center mt-2 lg:mt-1">
-          {/*  */}
+        {/* <div className="flex gap-4 items-center mt-2 lg:mt-1">
           <div>
             <IoBodySharp className="text-2xl" />
           </div>
           <p className="text-base">{data.type}</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

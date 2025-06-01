@@ -11,358 +11,440 @@ export const days = [
 
 export const excercise = [
   {
+    // • Flat Barbell Bench Press – 3 x 8-10
+    // • Incline Dumbbell Press – 2 x 8-10
+    // • Overhead Barbell Press – 3 x 8-10
+    // • Dumbbell Lateral Raises – 4 x 12-15
+    // • Cable Tricep Pushdowns – 2 x 10-12
+    // • Overhead Tricep Extensions – 2 x 10-12
+    // • Push-Ups – 2 x Failure
+
     dayName: "Monday",
-    dayOrgan:"Chest",
+    dayOrgan: "Push (Chest, Shoulders, Triceps)",
     excercises: [
       {
         video_url:
-          "https://www.youtube.com/embed/2jFFCy8JBU8?si=6QJ4NTORMffYeL1c",
-        set: 2,
-        reps: "10-15/  2 failure Min 25",
-        name: " Incline Smith Machine /Incline BB Pench press ",
+          "https://www.youtube.com/embed/CjHIKDQ4RQo?si=-KdIO4s4-RQpD2R1",
+        set: "8-10",
+        reps: "3",
+        name: "Flat Barbell Bench Press",
         type: "Chest",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/AduT4Eq-iP0?si=2kUAn2SbBfopFPh9",
-        set: 2,
-        reps: "10-15/  2 failure Min 25",
-        name: "  Dumbbell Flat Press",
+          "https://www.youtube.com/embed/oZVCBM9f8Eo?si=hbrx4_z_YTXmk4S-",
+        set: "8-10",
+        reps: "2 ",
+        name: "Incline Dumbbell Press",
         type: "Chest",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/eGjt4lk6g34?si=aRTHhF0yOO-nI0br",
-        set: 3,
-        reps: "10-15",
-        name: " Pec Deck Flies ",
+          "https://www.youtube.com/embed/-5MmFTKLC-0?si=rJ5Qu6-yjLD8MM3C",
+        set: " 8-10",
+        reps: "3",
+        name: "Overhead Barbell Press",
         type: "Chest",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/AduT4Eq-iP0?si=2kUAn2SbBfopFPh9",
-        set: 3,
-        reps: "failure min 25 ",
+          "https://www.youtube.com/embed/z-kOn7flIZg?si=J9MIjDyiz18ZlIUE",
+        set: "12-15",
+        reps: "4 ",
         name: "Dumbbell Lateral Raises",
-        type: "Shoulders",
+        type: "",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/Z5FA9aq3L6A?si=013tV_iPHIj-yqN0",
-        set: 3,
-        reps: "failure min 25 ",
-        name: "  Cable Lateral Raises ",
-        type: "Shoulders",
+          "https://www.youtube.com/embed/LXkCrxn3caQ?si=gqPFpBrQv2O0FWf3",
+        set: "10-12",
+        reps: "2 ",
+        name: "Cable Tricep Pushdowns",
+        type: "",
       },
       {
-        video_url: "https://www.youtube.com/embed/2feuVZi1xx4?si=C1FNDXrFS0l8V91p",
-        set: 3,
-        reps: "10-15",
-        name: "  Cross Body Tricep Extension/Bench dips ",
-        type: "Triceps",
+        video_url:
+          "https://www.youtube.com/embed/9wxRhONFsRA?si=_lW1M_KCSfDC5WzF",
+        set: " 10-12",
+        reps: " 2",
+        name: " Overhead Tricep Extensions",
+        type: "",
       },
       {
-        video_url: "https://www.youtube.com/embed/9wxRhONFsRA?si=-0KDwoFbaJnoyli3",
-        set: 3,
-        reps: "10-15",
-        name: "  Katana Extension/overhead tricep extensions ",
-        type: "Triceps",
-      }
+        video_url:
+          "https://www.youtube.com/embed/IODxDxX7oi4?si=TG6t1WP9qf_JOlk-",
+        set: "Failure",
+        reps: "2",
+        name: "Push-Ups",
+        type: "",
+      },
     ],
   },
   {
+    // • Deadlifts – 4 x 6-8
+    // • Pull-Ups or Lat Pulldown – 3 x 8-10
+    // • Barbell Rows – 3 x 8-10
+    // • Face Pulls – 2 x 12-15
+    // • Barbell Bicep Curls – 2 x 10-12
+    // • Incline Dumbbell Curls – 3 x 8-10
     dayName: "Tuesday",
-    dayOrgan:"Back",
+    dayOrgan: "Pull (Back, Biceps, Rear Delts)",
     excercises: [
       {
         video_url:
-          "https://www.youtube.com/embed/JGeRYIZdojU?si=V5d6BFkSMALD2jr9",
-        set: 3,
-        reps: "10-15",
-        name: "   Lat-Pull-down ",
+          "https://www.youtube.com/embed/GxsLrTzyGUU?si=gIhOIHG8XXF3J22J",
+        set: "6-8",
+        reps: "4",
+        name: "Deadlifts",
+        type: "",
+      },
+      {
+        video_url:
+          "https://www.youtube.com/embed/JGeRYIZdojU?si=ge_9eqZ97Oyqd0_1",
+        set: " 8-10",
+        reps: "3",
+        name: "Pull-Ups or Lat Pulldown",
+        type: "",
+      },
+      {
+        video_url:
+          "https://www.youtube.com/embed/FsK19s8eGFs?si=uam8bym2nwY5MU7x",
+        set: "8-10",
+        reps: "3",
+        name: " Barbell Rows ",
         type: "Back",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/JGeRYIZdojU?si=znmeNWi29IJZDAxs",
-        set: 3,
-        reps: "10-15/  2 failure Min 25",
-        name: " T-Bar Row",
-        type: "Back",
+          "https://www.youtube.com/embed/0Po47vvj9g4?si=xihT7fyV-X5uB7DJ",
+        set: "12-15",
+        reps: "2  ",
+        name: "Face Pulls",
+        type: "",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/lJoozxC0Rns?si=yEHGrka9wnbaBlB_",
-        set: 3,
-        reps: "10-15",
-        name: " Cable Row (close grip) ",
-        type: "Back",
+          "https://www.youtube.com/embed/N5x5M1x1Gd0?si=A27pqFWS6I86SQBh",
+        set: " 10-12",
+        reps: " 2",
+        name: "Barbell Bicep Curls",
+        type: "",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/Y59M5fXn8bs?si=v6uCt9Y2uWnsOKCR",
-        set: 3,
-        reps: "failure min 25 ",
-        name: " Lat Pullover",
-        type: "Back",
+          "https://www.youtube.com/embed/XVQBeug_9LU?si=KHghuWHARzv8PtxN",
+        set: "8-10",
+        reps: "3 ",
+        name: "Incline Dumbbell Curls ",
+        type: "",
       },
-      {
-        video_url:
-          "https://www.youtube.com/embed/Y59M5fXn8bs?si=SlBHj_SfVpY9WeeV",
-        set: 3,
-        reps: "failure min 25 ",
-        name: "  Reverse Pec Deck Fly ",
-        type: "Rear Delts",
-      },
-      {
-        video_url: "https://www.youtube.com/embed/Zbs3ko8ycyg?si=-wmOng-bsPHm-rXT",
-        set: 2,
-        reps: "10-15",
-        name: "  Preacher Curl ",
-        type: "Biceps",
-      },
-      {
-        video_url: "https://www.youtube.com/embed/B4RznoFvTl4?si=f5nIvRxkMePmNDVI",
-        set: 2,
-        reps: "10-15",
-        name: "  Hammer Curl DB ",
-        type: "Biceps",
-      }
+      // {
+      //   video_url:
+      //     "https://www.youtube.com/embed/B4RznoFvTl4?si=f5nIvRxkMePmNDVI",
+      //   set: 2,
+      //   reps: "10-15",
+      //   name: "  Hammer Curl DB ",
+      //   type: "Biceps",
+      // },
     ],
   },
   {
+    //     • Back Squats – 4 x 8-10
+    // • Romanian Deadlifts – 3 x 8-10
+    // • Leg Press – 2 x 12-15
+    // • Walking Lunges – 3 x 12-15 (per leg)
+    // • Hanging Leg Raises – 4 x 15-20
+    // • Plank with Side Twists – 3 x 20 twists
     dayName: "Wednesday",
-    dayOrgan:"Quads",
+    dayOrgan: "Legs + Core (Quads, Hamstrings, Core)",
     excercises: [
       {
         video_url:
-          "https://www.youtube.com/embed/JGeRYIZdojU?si=V5d6BFkSMALD2jr9",
-        set: 3,
-        reps: "10-15",
-        name: "    Hack Squat/Smith Squat/Goblet squat ",
-        type: "Quads",
+          "https://www.youtube.com/embed/rrJIyZGlK8c?si=d-JESCh7oWtpmlqY",
+        set: " 8-10",
+        reps: "4 ",
+        name: "Back Squats",
+        type: "",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/JGeRYIZdojU?si=znmeNWi29IJZDAxs",
-        set: 3,
-        reps: "10-15/  2 failure Min 25",
-        name: "  Leg Press",
+          "https://www.youtube.com/embed/zU-f6DMCdAI?si=_H9wwEfNJZqf4LJF",
+        set: "8-10",
+        reps: "3 ",
+        name: "Romanian Deadlifts",
         type: "Back",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/lJoozxC0Rns?si=yEHGrka9wnbaBlB_",
-        set: 3,
-        reps: "10-15",
-        name: "  Leg Extension/Bulgarian split squats ",
+          "https://www.youtube.com/embed/q4W4_VJbKW0?si=emmeJI-GIVAi7mnB",
+        set: " 12-15",
+        reps: "2",
+        name: "Leg Press",
         type: "Back",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/SbSNUXPRkc8?si=gmzXjpBnIjuFLgEe",
-        set: 3,
-        reps: "10-15",
-        name: "   Leg Curl",
+          "https://www.youtube.com/embed/mAgbXQdd4LM?si=tnK-t4pnGi9knSfE",
+        set: "12-15 (per leg)",
+        reps: " 3",
+        name: "Walking Lunges",
         type: "Hamstrings",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/plb5jEO4Unw?si=GS_E-dL4uwTw4aNu",
-        set: 3,
-        reps: "10-15",
-        name: "  Romanian Deadlift  ",
+          "https://www.youtube.com/embed/Yrtvs-nEnk0?si=oXmRAtIRyhR1PxTR",
+        set: " 15-20",
+        reps: "4",
+        name: "Hanging Leg Raises",
         type: "Hamstrings",
       },
       {
-        video_url: "https://www.youtube.com/embed/IphGZ8OlfYg?si=0OEX4lGKMNC5vY1g",
-        set: 2,
-        reps: "failure min 25 ",
-        name: "   Standing Calve Raises ",
+        video_url:
+          "https://www.youtube.com/embed/Oe9Tp9SvTCE?si=JvMsoGHfRHLwcunv",
+        set: "20 twists",
+        reps: "3",
+        name: "Plank with Side Twists",
         type: "Abs & Calves:",
       },
-      {
-        video_url: "https://www.youtube.com/embed/Yrtvs-nEnk0?si=xQ3Yv0Fkm0y7b3jV",
-        set: 2,
-        reps: "failure min 25 ",
-        name: " Hanging Leg Raises/Mountain Climber ",
-        type: "Abs & Calves",
-      }
+      // {
+      //   video_url:
+      //     "https://www.youtube.com/embed/Yrtvs-nEnk0?si=xQ3Yv0Fkm0y7b3jV",
+      //   set: 2,
+      //   reps: "failure min 25 ",
+      //   name: " Hanging Leg Raises/Mountain Climber ",
+      //   type: "Abs & Calves",
+      // },
     ],
   },
   {
+    // • Incline Barbell Bench Press – 3 x 8-10
+    // • Flat Dumbbell Press – 2 x 8-10
+    // • Pull-Ups (Weighted if needed) – 4 x 8-10
+    // • Barbell Pendlay Rows – 3 x 8-10
+    // • Dumbbell Chest Flys – 3 x 12-15
+    // • Cable Lat Pullover – 2 x 10-12
+    // • Bar Dips – 2 x Failure
     dayName: "Thursday",
-    dayOrgan:"Chest & Back",
+    dayOrgan: "Chest + Back (Upper Body Focus)",
     excercises: [
       {
         video_url:
-          "https://www.youtube.com/embed/oZVCBM9f8Eo?si=lFUw9JrHcCucM6DC",
-        set: 3,
-        reps: "10-15",
-        name: "  Incline Db Press",
+          "https://www.youtube.com/embed/2jFFCy8JBU8?si=F43mfVXTWigiR7th",
+        set: " 8-10",
+        reps: "3",
+        name: "Incline Barbell Bench Press",
         type: "Chests",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/2jFFCy8JBU8?si=rea5480f1bAFMUwY",
-        set: 3,
-        reps: "8-10",
-        name: "  Chest Press Machine/Incline Bench",
+          "https://www.youtube.com/embed/AduT4Eq-iP0?si=hg1OC6KaCoohecfv",
+        set: "8-10",
+        reps: "2",
+        name: "Flat Dumbbell Press",
         type: "Chest",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/wnFEC_34Bls?si=UGPN82nmrposs3Ew",
-        set: 2,
-        reps: "failure min 25 ",
-        name: " High to Low Cable Flies ",
+          "https://www.youtube.com/embed/PHdHnZcbsB8?si=61HRYHqmGE-8D6qh",
+        set: " 8-10",
+        reps: "4",
+        name: "Pull-Ups (Weighted if needed)",
         type: "Chest",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/PHdHnZcbsB8?si=DSlUVDVJ8yOqhSD_",
-        set: 3,
-        reps: "10-15",
-        name: " Pull-ups/Lat-Pull-down",
+          "https://www.youtube.com/embed/Wv7f0uIKh8o?si=y5WzbKVQLopwcWvz",
+        set: "8-10",
+        reps: "3 ",
+        name: "Barbell Pendlay Rows",
         type: "Back",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/FsK19s8eGFs?si=v7FrdRsmglauiezx",
-        set: 3,
-        reps: "10-15",
-        name: "  Bend Over Row",
+          "https://www.youtube.com/embed/Nhvz9EzdJ4U?si=lrjhhs_Y4JmTU-CY",
+        set: " 12-15",
+        reps: " 3",
+        name: "Dumbbell Chest Flys",
         type: "Back",
       },
       {
-        video_url: "https://www.youtube.com/embed/lJoozxC0Rns?si=qnIOyJ3IcqVsGg6o",
-        set: 3,
-        reps: "10-15",
-        name: "   Cable Row",
+        video_url:
+          "https://www.youtube.com/embed/JGeRYIZdojU?si=bSEVWF16bBdLf6aO",
+        set: " 10-12",
+        reps: "2",
+        name: "Cable Lat Pullover",
         type: "Back",
+      },
+      {
+        video_url:
+          "https://www.youtube.com/embed/2HYAeF6o7Bc?si=zRuXajQTuaVuuo7j",
+        set: " Failure",
+        reps: "2",
+        name: "Bar Dips",
+        type: "",
       },
     ],
   },
   {
+    // • Cable Tricep Pushdown – 3 x 8-10
+    // • Skull Crushers (EZ Bar) – 3 x 10-12
+    // • Preacher Curls – 2 x 10-12
+    // • Incline Dumbbell Curls – 2 x 8-10
+    // • Hammer Curls – 2 x 10-12
+    // • Dumbbell Lateral Raises – 4 x 12-15
+    // • Face Pulls – 3 x 12-15
     dayName: "Friday",
-    dayOrgan:"Shoulders & Arms",
+    dayOrgan: " Arms + Shoulders",
     excercises: [
       {
         video_url:
-          "https://www.youtube.com/embed/TsduLWuhlFM?si=ydHH3stUZlOJrENE",
-        set: 3,
-        reps: "10-15",
-        name: " Seated Db Shoulder Press",
+          "https://www.youtube.com/embed/LXkCrxn3caQ?si=xvnui0WT0MGgfq7s",
+        set: " 8-10",
+        reps: "3",
+        name: " Cable Tricep Pushdown ",
         type: "Shoulders",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/qWif_7SOYpQ?si=6bcjzMxcAoP0vjtk",
-        set: 2,
-        reps: "failure min 25 ",
-        name: "   Leaning Db Side Raises ",
+          "https://www.youtube.com/embed/sDxcKjCqXAo?si=Ve5rNgg9HHUu4g2A",
+        set: "10-12",
+        reps: "3",
+        name: "Skull Crushers (EZ Bar)",
         type: "Shoulders",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/z-kOn7flIZg?si=o_mwhokl_IwguEMK",
-        set: 2,
-        reps: "failure min 25 ",
-        name: "  Db Lateral Raises",
+          "https://www.youtube.com/embed/Zbs3ko8ycyg?si=KHpS_YiJQGUXFKnS",
+        set: "10-12",
+        reps: "2 ",
+        name: "Preacher Curls",
         type: "Shoulders",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/LXkCrxn3caQ?si=qaRHPMkn713SVp48",
-        set: 2,
-        reps: "failure min 25 ",
-        name: "Tricep Pushdown",
+          "https://www.youtube.com/embed/XVQBeug_9LU?si=qgbxZ8IZ76n-R17R",
+        set: "8-10",
+        reps: "2",
+        name: "Incline Dumbbell Curls",
         type: "Triceps",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/2feuVZi1xx4?si=7GnTMLj5Dhe64DAJ",
-        set: 2,
-        reps: "failure min 25 ",
-        name: "  Cross Body Extension ",
-        type: "Triceps",
-      },
-      {
-        video_url: "https://www.youtube.com/embed/kqidUIf1eJE?si=E3X4UpXeyVq7AZtb",
-        set: 2,
-        reps: "failure min 25 ",
-        name: " Overhead Cable Extension",
-        type: "Triceps",
-      },
-      {
-        video_url:
-          "https://www.youtube.com/embed/o2Tma5Cek48?si=p4G_nQyd0uVm57QU",
-        set: 2,
-        reps: "failure min 25 ",
-        name: "Alternate Db Curls",
-        type: "Biceps",
-      },
-      {
-        video_url:
-          "https://www.youtube.com/embed/o2Tma5Cek48?si=QTuAwRkXXCM8SRTN",
-        set: 2,
-        reps: "failure min 25 ",
-        name: "  Preacher Db Curls ",
-        type: "Biceps",
-      },
-      {
-        video_url: "https://www.youtube.com/embed/B4RznoFvTl4?si=TQwHkpd70OVTSTwY",
-        set: 2,
-        reps: "failure min 25 ",
+          "https://www.youtube.com/embed/B4RznoFvTl4?si=fX70GK8r-fr-0Qfn",
+        set: " 10-12",
+        reps: "2",
         name: "Hammer Curls",
+        type: "Triceps",
+      },
+      {
+        video_url:
+          "https://www.youtube.com/embed/z-kOn7flIZg?si=V3-89SdFIq8AvUDE",
+        set:" 12-15",
+        reps: "4",
+        name: " Dumbbell Lateral Raises",
+        type: "Triceps",
+      },
+      {
+        video_url:
+          "https://www.youtube.com/embed/0Po47vvj9g4?si=kJLADtxxheILkJCW",
+        set:  "12-15",
+        reps: "3",
+        name: "Face Pulls",
         type: "Biceps",
       },
+      // {
+      //   video_url:
+      //     "https://www.youtube.com/embed/o2Tma5Cek48?si=QTuAwRkXXCM8SRTN",
+      //   set: 2,
+      //   reps: "failure min 25 ",
+      //   name: "  Preacher Db Curls ",
+      //   type: "Biceps",
+      // },
+      // {
+      //   video_url:
+      //     "https://www.youtube.com/embed/B4RznoFvTl4?si=TQwHkpd70OVTSTwY",
+      //   set: 2,
+      //   reps: "failure min 25 ",
+      //   name: "Hammer Curls",
+      //   type: "Biceps",
+      // },
     ],
   },
   {
+
+//     • Front Squats – 3 x 8-10
+// • Bulgarian Split Squats – 3 x 12-15 (per leg)
+// • Leg Extension (Machine) – 2 x 12-15
+// • Hamstring Curls (Machine) – 3 x 10-12
+// • Standing Calf Raises – 4 x 15-20
+// • Seated Calf Raises – 4 x 15-20
+// • Cable Woodchoppers – 3 x 15 (per side)
+// • Weighted Decline Sit-Ups – 3 x 15-20
+
     dayName: "Satureday",
-    dayOrgan:"Core",
+    dayOrgan: "Legs + Core (Lower Body Focus)",
     excercises: [
       {
         video_url:
-          "https://www.youtube.com/embed/NnVhqMQRvmM?si=IJp-dcOw9RJI7T5s",
-        set: 5,
-        reps: "15-20",
-        name: "Dumbbell Crunches",
+          "https://www.youtube.com/embed/Q1Ypb8ZNzI4?si=pl_oY6ngZOF__FhY",
+        set: "8-10",
+        reps: "3",
+        name: " Front Squats",
         type: "Core",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/BDXhn8ta3Vo?si=XiLVvGFk4tCq5d9z",
-        set: 5,
-        reps: "15-20 ",
-        name: "  DB Side Bend",
+          "https://www.youtube.com/embed/TEXl2b3__S4?si=sai79D2zvpjUj2cc",
+        set: " 12-15 (per leg)",
+        reps: "3",
+        name: "  Bulgarian Split Squats",
         type: "Core",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/SkEzWAyzxJI?si=W4rWaq9z1j4oPk7Z",
-        set: 5,
-        reps: "15-20 ",
-        name: " Dumbbell Leg Raises",
+          "https://www.youtube.com/embed/4ZDm5EbiFI8?si=WJHYjqteyZbVbMZp",
+        set: " 12-15",
+        reps: "2",
+        name: "Leg Extension (Machine)",
         type: "Core",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/99T1EfpMwPA?si=doD8VruIyiJpPy7l",
-        set: 5,
-        reps: "15-20 ",
-        name: "Russian Twist",
+          "https://www.youtube.com/embed/_qwLdYywo_A?si=UHfgE4WztZMyyqOo",
+        set: "10-12",
+        reps: "3 ",
+        name: "Hamstring Curls (Machine) ",
         type: "Core",
       },
       {
         video_url:
-          "https://www.youtube.com/embed/Ec9Ymqhe5i4?si=WIj-kNn_cZQCDIQY",
-        set: 5,
-        reps: "10-30 sec ",
-        name: " Dumbbell Side Plank ",
+          "https://www.youtube.com/embed/Zep-wKHWkNM?si=pmFjXCSEiH_c6_pa",
+        set: "15-20",
+        reps: "4",
+        name: "Standing Calf Raises ",
         type: "Core",
-      },
+      }, {
+        video_url:
+          "https://www.youtube.com/embed/3ZRe_QpvRPg?si=-xvKWO2xAstU46Ix",
+        set: "15-20",
+        reps: "4 ",
+        name: "Seated Calf Raises ",
+        type: "Core",
+      }, {
+        video_url:
+          "https://www.youtube.com/embed/iWxTGXIViro?si=o2CmnmrF3OevbGpl",
+        set: "15 (per side)",
+        reps: "3",
+        name: "Cable Woodchoppers  ",
+        type: "Core",
+      }, {
+        video_url:
+          "https://www.youtube.com/embed/pTZL-Hirhwg?si=ztBNtP4d5V1pVtko",
+        set: "15-20",
+        reps: "3",
+        name: "Weighted Decline Sit-Ups  ",
+        type: "Core",
+      }, 
     ],
   },
 ];
